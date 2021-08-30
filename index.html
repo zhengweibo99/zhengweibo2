@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<title>郑维波的个人介绍</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 以下是引入的做前端时普遍会用到的library格式 -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif
+    }
+</style>
+
+<body class="w3-light-grey">
+
+    <!-- 设置顶部banner背景图片，可以在Ava的git上marster分支ProjectPhotos文件夹里选择自己喜欢的背景图片（具体操作：右键点击图片->复制图片地址->把URL添加到代码里） -->
+   <!-- 图片文件夹地址：https://github.com/AvaWu-AU/git_cv_project/tree/master/ProjectPhotos -->
+   <div class="text-center" style="margin-bottom:0;background-image: url(image/1.JPG); background-repeat: no-repeat;
+     background-size: cover;color:black;padding-top:5rem;padding-bottom : 30rem;background-attachment: fixed;">
+        <h1>My个人主页</h1>
+        <p>就是随便弄着玩</p>
+        <p>左上面有首歌   可以一边听一边看</p>
+        <audio autofocus="autofocus" autoplay="autoplay" controls style="position: absolute;top: 0;left: 0;">
+            <source src="audio/赵英俊 - 致我们终将逝去的青春 (Live).mp3" type="audio/mpeg">
+       </audio>
+    </div>
+    <!-- 顶部导航栏 -->
+    <div style="background-color: #343a40;display:flex;flex-direction: row;justify-content: center;">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">简介内容</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">技能</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">语言</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">兴趣爱好</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">学历</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- 页面内容框 -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+        <!-- 页面大小，会根据不同的浏览器自动调整大小，最大宽度1400px-->
+        <div class="container-sm" style="max-width:1400px;">
+            <!-- The Grid -->
+            <div class="row">
+                <!-- 左边栏目 -->
+                <div class="col-sm-4">
+                    <div class="w3-white w3-text-grey w3-card-4">
+                        <div class="w3-display-container">
+                            <!-- 以下在src的双引号内输入你喜欢的照片路径 -->
+                            <div class="col" style="text-align: right;"><img src="https://github.com/AvaWu-AU/git_cv_project/blob/master/ProjectPhotos/%E4%B8%AA%E4%BA%BA%E5%A4%B4%E5%83%8F-HelloWorld%E7%B4%AB%E8%89%B2%E5%B0%8F%E7%BE%8A.png?raw=true"
+                                    style="width:60%;text-align: right;padding:10px 10px;margin:10px 10px;"
+                                    alt="Avatar"></div>
+                            <div class="w3-display-bottomleft w3-container w3-text-black">
+                                <h2>郑维波</h2>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software
+                                Developer
+                            </p>
+                            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>中国  安徽</p>
+                            <p><i
+                                    class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>2641082913@qq.com
+                            </p>
+                            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>13275502913</p>
+                            <hr>
+
+                            <p class="w3-large"><b><i
+                                        class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>IT技能</b>
+                            </p>
+                            <p style="font-size:1.3rem;"><span class="badge badge-info">Java</span>
+                                <span class="badge badge-info">PHP</span>
+                                <span class="badge badge-info">JavaScript</span>
+                                <span class="badge badge-info">VUEJS</span>
+                                <span class="badge badge-info">jQuery</span>
+                                <span class="badge badge-info">HTML</span>
+                                <span class="badge badge-info">CSS</span>
+                                <span class="badge badge-info">Markdown</span>
+                                <span class="badge badge-info">Python</span>
+                            <br>
+                            <p class="w3-large"><b><i class="w3-margin-right w3-text-teal fa fa-diamond"></i>UI软件使用技能</b>
+                            </p>
+                            <p style="font-size:1.3rem;">
+                                <span class="badge badge-success">Sketch</span>
+                                <span class="badge badge-success">Photoshop</span>
+                                <span class="badge badge-success">Adobe Illustrator</span>
+                                <br>
+
+                            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>语言</b></p>
+                            <p>普通话</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
+                            </div>
+                            <p>英语</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
+                            </div>
+                            <br>
+                        </div>
+                    </div><br>
+                    <!-- 左边栏结束 -->
+                </div>
+
+                <!-- 右边栏内容 -->
+                <div class="col-sm-8">
+
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i
+                                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>兴趣爱好</h2>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>公路车，山地车的骑行</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>从我出生 - <span
+                                    class="w3-tag w3-teal w3-round">至今</span></h6>
+                            <p>梦想是有一天可以买一辆砾石公路车在318的省道上穿梭</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>音乐、电影</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>从我出生 -
+                              至今
+                            </h6>
+                            <p>这个把说不好，就是天天干但也不知道干了个啥，算了凑个字数得了</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>羽毛球</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>从我出生 -
+                                至今
+                            </h6>
+                            <p>接触是从小学把，正儿八经在羽毛球场打就是初中了，喜欢李宗伟，黄雅琼、大崛彩
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i
+                                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>驰骋多个游戏平台 </h2>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>召唤师峡谷学院</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>小学 -
+                                至今
+                            </h6>
+                            <p>铂金学位</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>CF枪战学院</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>小学 - 至今
+                            </h6>
+                            <p>三个钻，没有自雷没有刷经验</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>QQ飞车学院</b></h5>
+                            <p>201级，九年级过年拿100压岁钱抽了个永久白银雷诺，也喜欢跳舞</p><br>
+                        </div>
+                    </div>
+
+                    <!-- 右边栏内容结束 -->
+                </div>
+
+                <!-- End Grid -->
+            </div>
+
+            <!-- 页面内容结束 -->
+        </div>
+
+        <!-- 页脚代码 -->
+        <footer class="w3-container w3-teal w3-center w3-margin-top" style="font-size:1.2rem;color:black;">
+            <p>欢迎关注我的社交账号</p>
+            <i class="fa fa-youtube w3-hover-opacity"></i><a
+                href="https://www.youtube.com/channel/UC6ht_Qks8IFy9z0TZfSLY5Q?view_as=subscriber" target="_blank"
+                style="color:black;">YouTube肯定是没有啦</a>
+            <i class="fa fa-instagram w3-hover-opacity"></i><a
+                href="https://space.bilibili.com/570279925?spm_id_from=333.788.b_765f7570696e666f.2" target="_blank"
+                style="color:black;margin-left:20px;margin-bottom:10px;">留个微信得了：13275502913</a>
+            <p>就是闲着无聊，先弄着，花了一天时间，有点粗糙</p>
+                  <!-- 页脚代码结束 -->
+        </footer>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
